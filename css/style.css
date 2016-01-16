@@ -25,6 +25,24 @@ button {
     margin-bottom: 15px;
 }
 
+ol, ul {
+    list-style: none;
+}
+
+.cases {
+  background-color: white;
+  overflow: auto;
+}
+.cases .content {
+  background-color: white;
+  text-align: center;
+}
+
+.cases .devices > li {
+  width: 33.333333%;
+  float: left;
+}
+
 .content {
   padding: 0 0.938rem;
   margin: 0 auto;
@@ -82,6 +100,9 @@ button {
 
 .top-navigation {
   background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content{
